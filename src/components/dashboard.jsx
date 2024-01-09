@@ -10,7 +10,7 @@ const Dashboard = () => {
           <SideMenu />
         </div>
       
-      <div><DashboardPage/></div>
+      <div className="right-side"><DashboardPage/></div>
 
       
     </div>

@@ -16,6 +16,10 @@ const DashboardPage = () => {
             <option value="option1">Last Month</option>
           </select>
         </div>
+        <div className="payment-option">
+            <p>Razorpay</p>
+            <p>Cashfree</p>
+        </div>
         <div className="orders-amounts">
           <div className="orders card">
             <p>Online Orders</p>

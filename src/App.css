@@ -30,6 +30,6 @@ body {
   display: flex;
   min-height: 100vh;
   font-family:  var( --sidebar-font-family) ;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 

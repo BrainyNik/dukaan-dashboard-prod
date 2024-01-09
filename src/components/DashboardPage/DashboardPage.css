@@ -1,6 +1,25 @@
 .dashboard-page {
   margin: 3em;
 }
+.payment-option{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-size: 1.125rem;
+    border-bottom: 1px solid  #D9D9D9;
+    /* padding-bottom: 14px; */
+    margin-bottom: 1em;
+}
+.payment-option p{
+    display: block;
+    line-height: 1.5em;
+    padding-bottom: 14px;
+
+}
+.payment-option p:first-child{
+    color: var(--orderId-text-color);
+    border-bottom: 3px solid var(--orderId-text-color);
+}
 .dashboard-overview {
   display: flex;
   align-items: center;
