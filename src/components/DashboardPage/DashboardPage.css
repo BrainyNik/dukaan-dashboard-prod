@@ -1,0 +1,133 @@
+.dashboard-page{
+    margin: 3em;
+}
+.dashboard-overview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.dashboard-overview p{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.dashboard-overview select {
+    display: flex;
+    padding: 0.5em;
+    outline: none;
+}
+.orders-amounts{
+    display: flex;
+    gap: 1.25em;
+    margin-bottom: 2em;
+}
+.card{
+    padding: 1.25rem;
+    box-shadow: 0px 2px 6px 0px #1A181E0A;
+    width: 100%;
+    background: #FFFFFF;
+
+
+}
+.card p:first-child{
+    color: #4D4D4D;
+    margin-bottom: 1em;
+}
+.card p:last-child{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.dashboard-transactions{
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+}
+.table{
+    height: 100%;
+    box-shadow: 0px 2px 6px 0px #1A181E0A;
+    padding: 0.75em 0.75em 1.5em 0.75em;
+    background: #FFFFFF;
+
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75em;
+}
+.table-search{
+    width: 15.5em;
+    border: 1px solid #D9D9D9;
+}
+.table-btns{
+    display: flex;
+    gap: 0.75em;
+}
+.table-sort, .table-download{
+    border: 1px solid #D9D9D9;
+    padding: 0.375em 0.75em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+table{
+    width: 100%;
+}
+th:first-child,td:first-child {
+    text-align: left;
+}
+th:last-child, td:last-child{
+    text-align: right;
+}
+th{
+    padding: 0.625em 0.75em ;
+    background-color: var(--secondary-bg-color);
+    border-radius: 0.375em;
+
+}
+th,td{
+    font-size: 0.875rem;
+}
+td{
+    text-align: center;
+    border-bottom: 0.0625em solid #D9D9D9; 
+    padding: 0.875em 0.75em 0.875em 0.75em; 
+}
+td:first-child{
+    color: var(--orderId-text-color);
+}
+
+.table-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.725em;
+    gap: 1.5em;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1em;
+  }
+  
+  .pagination a, .pagination span {
+    display: block;
+    text-decoration: none;
+    padding: 0.375em 0.5em;
+  }
+  .prev-btn{
+    border: 1px solid #D9D9D9;
+    padding: 0.375em 0.75em
+  }
+  .next-btn{
+    border: 1px solid #D9D9D9;
+    padding: 0.375em 0.75em
+  }
+  .active{
+    background-color: var(--orderId-text-color);
+    border-radius: 0.3em;
+    color: var(--sidebar-text-active);
+  
+  }

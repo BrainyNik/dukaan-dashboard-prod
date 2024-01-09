@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&display=swap");
+
+:root {
+  --sidebar-bg: #1e2640;
+  --sidebar-text-primary: #9196a2;
+  --sidebar-text-active: #ffffff;
+  --sidebar-secondary-bg: #353c53;
+
+  --main-bg: #fafafa;
+  --primary-text-color: #1a181e;
+
+  /* --heading-text-color: ; */
+  --orderId-text-color: #146eb4;
+  --secondary-bg-color: #f2f2f2;
+
+  --sidebar-font-family: "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--main-bg);
+  display: flex;
+  min-height: 100vh;
+  font-family:  var( --sidebar-font-family) ;
+  overflow-x: hidden;
+}
+
