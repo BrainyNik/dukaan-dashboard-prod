@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap");
 
 :root {
   --sidebar-bg: #1e2640;
@@ -29,9 +28,9 @@ body {
   background-color: var(--main-bg);
   display: flex;
   min-height: 100vh;
-  font-family:  var( --sidebar-font-family) ;
+  font-family: var(--sidebar-font-family);
   overflow-x: hidden;
 }
-.App{
+.App {
   overflow: hidden;
 }

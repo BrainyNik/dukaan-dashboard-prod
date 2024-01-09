@@ -1,4 +1,4 @@
-import { downArrowIcon, searchIcon } from "../icon-imports";
+import { downloadIcon, sortIcon } from "../icon-imports";
 import Navbar from "../Navbar/Navbar";
 import "./DashboardPage.css";
 import Table from "./Table";
@@ -17,8 +17,8 @@ const DashboardPage = () => {
           </select>
         </div>
         <div className="payment-option">
-            <p>Razorpay</p>
-            <p>Cashfree</p>
+          <p>Razorpay</p>
+          <p>Cashfree</p>
         </div>
         <div className="orders-amounts">
           <div className="orders card">
@@ -39,17 +39,17 @@ const DashboardPage = () => {
           <div className="table-header">
             <div className="table-search search">
               <button>
-                <img src={searchIcon} alt="" />
+                <img src={sortIcon} alt="" />
               </button>
               <input type="text" placeholder="Search by order ID..." />
             </div>
             <div className="table-btns">
               <div className="table-sort">
                 <p>Sort</p>
-                <img src={searchIcon} alt="" />
+                <img src={sortIcon} alt="" />
               </div>
               <div className="table-download">
-                <img src={downArrowIcon} alt="" />
+                <img src={downloadIcon} alt="" />
               </div>
             </div>
           </div>

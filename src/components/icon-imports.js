@@ -19,6 +19,13 @@ import storeProfileIcon from "../assets/icons/store-profile-img.svg";
 
 import toolsIcon from "../assets/icons/tools-icon.svg";
 import walletIcon from "../assets/icons/wallet-icon.svg";
+import productsIcon from "../assets/icons/products-icon.svg";
+import prevIcon from "../assets/icons/leftArrowIcon.svg";
+import nextIcon from "../assets/icons/rightArrowIcon.svg";
+import sortIcon from "../assets/icons/Sort-icon.svg";
+import downloadIcon from "../assets/icons/dowload-icon.svg";
+import orderDateIcon from "../assets/icons/order-date-icon.svg";
+import transactionFeesIcon from "../assets/icons/transaction-fees-icon.svg";
 
 export {
   analyticsIcon,
@@ -39,4 +46,11 @@ export {
   storeProfileIcon,
   toolsIcon,
   walletIcon,
+  productsIcon,
+  prevIcon,
+  nextIcon,
+  sortIcon,
+  downloadIcon,
+  transactionFeesIcon,
+  orderDateIcon,
 };

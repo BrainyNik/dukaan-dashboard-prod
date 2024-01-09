@@ -1,24 +1,24 @@
 .dashboard-page {
   margin: 3em;
 }
-.payment-option{
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    font-size: 1.125rem;
-    border-bottom: 1px solid  #D9D9D9;
-    /* padding-bottom: 14px; */
-    margin-bottom: 1em;
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  font-size: 1.125rem;
+  border-bottom: 1px solid #d9d9d9;
+  /* padding-bottom: 14px; */
+  margin-bottom: 1em;
 }
-.payment-option p{
-    display: block;
-    line-height: 1.5em;
-    padding-bottom: 14px;
-
+.payment-option p {
+  display: block;
+  line-height: 1.5em;
+  padding-bottom: 14px;
+  font-weight: 500;
 }
-.payment-option p:first-child{
-    color: var(--orderId-text-color);
-    border-bottom: 3px solid var(--orderId-text-color);
+.payment-option p:first-child {
+  color: var(--orderId-text-color);
+  border-bottom: 3px solid var(--orderId-text-color);
 }
 .dashboard-overview {
   display: flex;
@@ -59,6 +59,7 @@
 .dashboard-transactions {
   font-size: 1.25rem;
   margin-bottom: 1em;
+  font-weight: 500;
 }
 .table {
   height: 100%;
@@ -95,15 +96,28 @@ th:first-child,
 td:first-child {
   text-align: left;
   border-radius: 0.375em 0 0 0.375em;
+  display: flex;
+  align-items: center;
 }
+
 th:last-child,
 td:last-child {
   text-align: right;
   border-radius: 0 0.375em 0.375em 0;
 }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.2em;
+}
+.order-date {
+  justify-content: center;
+}
 th {
   padding: 0.625em 0.75em;
   background-color: var(--secondary-bg-color);
+  font-weight: 500;
 }
 th,
 td {
@@ -117,7 +131,6 @@ td {
 td:first-child {
   color: var(--orderId-text-color);
 }
-
 .table-pagination {
   display: flex;
   align-items: center;
@@ -142,10 +155,16 @@ td:first-child {
 .prev-btn {
   border: 1px solid #d9d9d9;
   padding: 0.375em 0.75em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 .next-btn {
   border: 1px solid #d9d9d9;
   padding: 0.375em 0.75em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 .active {
   background-color: var(--orderId-text-color);

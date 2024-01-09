@@ -2,21 +2,17 @@ import {
   analyticsIcon,
   audienceIcon,
   AppearanceIcon,
-  chatIcon,
   deliveryIcon,
   discountsIcon,
-  downArrowIcon,
-  downIcon,
-  HelpIcon,
   HomeIcon,
   marketingIcon,
   orderIcon,
   paymentsIcon,
   pluginsIcon,
-  searchIcon,
-  storeProfileIcon,
   toolsIcon,
+  productsIcon,
 } from "../icon-imports";
+
 const links = [
   {
     icon: HomeIcon,
@@ -27,7 +23,7 @@ const links = [
     title: "Orders",
   },
   {
-    icon: deliveryIcon,
+    icon: productsIcon,
     title: "Products",
   },
   {
@@ -45,7 +41,7 @@ const links = [
   {
     icon: paymentsIcon,
     title: "Payments",
-    className:"payment",
+    className: "payment",
   },
   {
     icon: toolsIcon,
@@ -64,8 +60,8 @@ const links = [
     title: "Appearance",
   },
   {
-      icon: pluginsIcon,
-      title: "Plugins",
+    icon: pluginsIcon,
+    title: "Plugins",
   },
 ];
 
@@ -75,7 +71,7 @@ const SideMenuLinks = () => {
       {links.map((item, index) => {
         return (
           <div key={index}>
-            <div  className={`sidebar-sublinks ${item.className}`}>
+            <div className={`sidebar-sublinks ${item.className}`}>
               <img src={item.icon} alt={item.title} />
               {item.title}
             </div>
