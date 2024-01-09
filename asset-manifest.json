@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/dukaan-dashboard-prod/static/css/main.446d3a90.css",
+    "main.js": "/dukaan-dashboard-prod/static/js/main.3c78094c.js",
+    "static/media/store-profile-img.svg": "/dukaan-dashboard-prod/static/media/store-profile-img.f48c173987f112a108f9c634a7dc04c5.svg",
+    "static/media/discounts-icon.svg": "/dukaan-dashboard-prod/static/media/discounts-icon.817767ee3ef41c7b4b76c6d11e9e44ba.svg",
+    "static/media/audience-icon.svg": "/dukaan-dashboard-prod/static/media/audience-icon.a5fd00e143ed3373db283c53f1f0ff42.svg",
+    "static/media/order-icon.svg": "/dukaan-dashboard-prod/static/media/order-icon.3cfa7b78867b6cdf258982af476a4cef.svg",
+    "static/media/Help-icon.svg": "/dukaan-dashboard-prod/static/media/Help-icon.9eb80dab71d90510449ccb5027233951.svg",
+    "static/media/delivery-icon.svg": "/dukaan-dashboard-prod/static/media/delivery-icon.2c23675e85683042a0057933b6844a3c.svg",
+    "static/media/Home-icon.svg": "/dukaan-dashboard-prod/static/media/Home-icon.cabc0feced217d55ac4e11b53dea18b3.svg",
+    "static/media/Appearance-icon.svg": "/dukaan-dashboard-prod/static/media/Appearance-icon.df1557d8f90324c6feb70ae0d59e8fe5.svg",
+    "static/media/Sort-icon.svg": "/dukaan-dashboard-prod/static/media/Sort-icon.cbf38914e62e94e7f1a2c69f4aaa2c6f.svg",
+    "static/media/analytics-icon.svg": "/dukaan-dashboard-prod/static/media/analytics-icon.1a7d1868fa9736354d4aa0f4327bda0d.svg",
+    "static/media/marketing-icon.svg": "/dukaan-dashboard-prod/static/media/marketing-icon.92119b1eb94e33a9af9ac191f8ab31b3.svg",
+    "static/media/dowload-icon.svg": "/dukaan-dashboard-prod/static/media/dowload-icon.11f9dc150d5c84923fb6dd3a5f838cfc.svg",
+    "static/media/products-icon.svg": "/dukaan-dashboard-prod/static/media/products-icon.80671c3da1b0b09ba65b71cd9812c237.svg",
+    "static/media/chat-icon.svg": "/dukaan-dashboard-prod/static/media/chat-icon.708b82774650deee90e0d94c625b4fff.svg",
+    "static/media/transaction-fees-icon.svg": "/dukaan-dashboard-prod/static/media/transaction-fees-icon.2499f6d53313b4ff442afeabd829580e.svg",
+    "static/media/wallet-icon.svg": "/dukaan-dashboard-prod/static/media/wallet-icon.cd03b95f966b1a7b044c82e856abbc00.svg",
+    "static/media/tools-icon.svg": "/dukaan-dashboard-prod/static/media/tools-icon.3a982085d8ce03b437a3f67f7c1edcb8.svg",
+    "static/media/plugins-icon.svg": "/dukaan-dashboard-prod/static/media/plugins-icon.a57143b51373caeac6645d8bc2e5c878.svg",
+    "static/media/search-icon.svg": "/dukaan-dashboard-prod/static/media/search-icon.d56c91acb5fb2d94b604040c2909e23b.svg",
+    "static/media/order-date-icon.svg": "/dukaan-dashboard-prod/static/media/order-date-icon.86f791950e82c5a2b8cb47638686bb7f.svg",
+    "static/media/payments-icon.svg": "/dukaan-dashboard-prod/static/media/payments-icon.deb51053592acd04386b5c21778768da.svg",
+    "index.html": "/dukaan-dashboard-prod/index.html",
+    "static/media/leftArrowIcon.svg": "/dukaan-dashboard-prod/static/media/leftArrowIcon.270447c446f52f83bbcf2040be8e957d.svg",
+    "static/media/rightArrowIcon.svg": "/dukaan-dashboard-prod/static/media/rightArrowIcon.f367989f0ebeb2e607d52507190adcbf.svg",
+    "static/media/down-icon.svg": "/dukaan-dashboard-prod/static/media/down-icon.3c736e0bcb99e60a90b2885e93d707f2.svg",
+    "static/media/down-arrow-icon.svg": "/dukaan-dashboard-prod/static/media/down-arrow-icon.5ac652f78c6c75e412ec95a0f153ccf5.svg",
+    "main.446d3a90.css.map": "/dukaan-dashboard-prod/static/css/main.446d3a90.css.map",
+    "main.3c78094c.js.map": "/dukaan-dashboard-prod/static/js/main.3c78094c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446d3a90.css",
+    "static/js/main.3c78094c.js"
+  ]
+}
