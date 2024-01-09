@@ -70,6 +70,9 @@ const Table = () => {
               <li><a href="#">13</a></li>
               <li><a href="#">14</a></li>
               <li><a href="#">15</a></li>
+              <li><a href="#">16</a></li>
+              <li><a href="#">17</a></li>
+              <li><a href="#">18</a></li>
             </ul>
             <button className="next-btn">Next</button>
       </div>
